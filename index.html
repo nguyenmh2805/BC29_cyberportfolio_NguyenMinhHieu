@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font-awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Animate  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+      <!-- Header  -->
+      <header class="container">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-dice-d20"></i>
+                <span>CyberPortfolio</span>
+            </a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#" id="home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </header>
+
+      <!-- Carousel -->
+      <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+      
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <div class="img__thumb">
+                <img class="img-fluid rounded-circle animate__animated animate__fadeInUp animate__delay-1s" src="./images/01-3.jpg" alt="">
+              </div>
+              <h3 class="animate__animated animate__fadeInUp animate__delay-2s">Our goals. Our mission.</h3>
+              <p class="animate__animated animate__fadeInUp animate__delay-3s">How we help other companies to grow.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <div class="img__thumb">
+                <img class="img-fluid rounded-circle animate__animated animate__fadeInUp animate__delay-1s" src="./images/02-3.jpg" alt="">
+              </div>
+              <h3 class="animate__animated animate__fadeInUp animate__delay-2s">Our goals. Our mission.</h3>
+              <p class="animate__animated animate__fadeInUp animate__delay-3s">How we help other companies to grow.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <div class="img__thumb">
+                <img class="img-fluid rounded-circle animate__animated animate__fadeInUp animate__delay-1s" src="./images/03-3.jpg" alt="">
+              </div>
+              <h3 class="animate__animated animate__fadeInUp animate__delay-2s">Our goals. Our mission.</h3>
+              <p class="animate__animated animate__fadeInUp animate__delay-3s">How we help other companies to grow.</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a> -->
+      
+      </div>
+
+      <!-- Project  -->
+      <section id="project" class="container">
+        <div class="project__title text-center">
+          <h1>I Love What I Do</h1>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+        </div>
+        <div class="project__content">
+          <!-- Nav pills -->
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#allproject">All Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#illustration">Illustration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#photography">Photography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#website">Website</a>
+            </li>
+          </ul>
+
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane container active" id="allproject">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g1.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Apologetic robot holding flowers</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g2.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Woman walking her small dog</h4>
+                      <p class="card-text">Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g3.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Oil bottle branding</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g4.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Smiling Woman</h4>
+                      <p class="card-text">Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g5.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Drink can design</h4>
+                      <p class="card-text">Packaging</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g6.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">I love you hand gesture</h4>
+                      <p class="card-text">Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane container fade" id="illustration">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g1.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Apologetic robot holding flowers</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g2.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Woman walking her small dog</h4>
+                      <p class="card-text">Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g3.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Oil bottle branding</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane container fade" id="photography">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g3.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Oil bottle branding</h4>
+                      <p class="card-text">Branding</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g4.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">Smiling Woman</h4>
+                      <p class="card-text">Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane container fade" id="website">
+              <div class="row">
+                <div class="col-4">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/g6.jpg" alt="">
+                    <div class="card-body">
+                      <h4 class="card-title">I love you hand gesture</h4>
+                      <p class="card-text">Illustrations</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Hire  -->
+      <section id="hire">
+        <div class="hire__overlay"></div>
+        <div class="hire__title text-center">
+          <h1>I'm Available For Hire</h1>
+          <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+        </div>
+        <div class="hire__content container">
+          <div class="row">
+            <div class="col-4">
+              <div class="hire__item text-center">
+                <i class="fas fa-paint-brush fa-3x"></i>
+                <h2>Design</h2>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="hire__item text-center">
+                <i class="fas fa-shekel-sign fa-3x"></i>
+                <h2>Marketing</h2>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="hire__item text-center">
+                <i class="fas fa-camera fa-3x"></i>
+                <h2>Photography</h2>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Award  -->
+      <section id="award">
+        <div class="award__overlay"></div>
+        <div class="container">
+          <div class="award__content row">
+            <div class="col-5">
+              <div class="award__card">
+                <h1>Our Achievement and Award</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+              </div>
+            </div>
+            <div class="col-7 award__center">
+              <div class="award__title">
+                <p>Luctus porta semper aptent morbi. Vestibulum lectus tempus augue dictumst enim commodo facilisis. Mus laoreet scelerisque habitant urna dui sem diam. Purus dis nam eget. Scelerisque placerat lectus lorem etiam. Elementum integer phasellus lectus.</p>
+                <div class="award__img row">
+                  <div class="col">
+                    <img src="./images/award-1.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="./images/award-2.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="./images/award-3.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="./images/award-4.png" alt="">
+                  </div>
+                  <div class="col">
+                    <img src="./images/award-5.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer  -->
+      
+      <footer>
+        <div class="container">
+          <div class="footer__icon row">
+            <div class="footer__logo">
+              <a href="#home"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="footer__logo">
+              <a href="#home"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="footer__logo">
+              <a href="#home"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer__logo">
+              <a href="#home"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+            <div class="footer__logo">
+              <a href="#home"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="footer__title">
+            <p>© 2021 CyberPortfolio. All rights reserved | Designed by <a href="#home">CyberSoft</a></p>
+          </div>
+
+        </div>
+      </footer>
+
+
+
+
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Wowjs  -->
+    <script src="./libs/wowjs/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

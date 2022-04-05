@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-brand i {
+    color: green;
+    font-size: 42px;
+}
+
+.navbar-brand span {
+    font-size: 36px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; 
+}
+
+.navbar-nav .nav-item::after {
+    content: "";
+    width: 0;
+    display: block;
+    height: 2px;
+    background-color: green;
+}
+
+.navbar-nav .nav-item.active::after {
+    width: 100%;
+}
+
+.navbar-nav .nav-item:hover::after {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: green;    
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    transition: all 0.5s;
+    border: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: green;
+}
+
+/* Carousel  */
+
+.carousel-indicators {
+    top: 85%;
+}
+
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+
+.carousel-indicators li.active {
+    background-color: green;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel-caption h3 {
+    font-size: 56px;
+    font-weight: 500;
+    margin: 0 0 8px;
+}
+
+.carousel-caption p {
+    font-size: 24px ;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url("./../images/finland.jpg");
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url("./../images/mountains.jpg");
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url("./../images/mountains-1.jpg");
+}
+
+.img__thumb {
+    width: 150px;
+    margin: auto;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(39,43,54,.5);
+}
+
+/* Project  */
+
+#project {
+    padding: 48px 0;
+}
+
+.project__title {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.project__title h1 {
+    margin: 0 0 8px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.project__title p {
+    margin: 16px 0;
+    font-size: 16px;
+}
+.nav-pills {
+    justify-content: center;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #35A22C;
+}
+
+.nav-pills .nav-item {
+    margin: 0 5px;
+}
+.nav-pills .nav-item a {
+    color: black;
+}
+
+.nav-item .nav-link {
+    border: 1px black solid;
+}
+
+.col-4 {
+    margin-top: 30px;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card .card-img-top {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body {
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+    border-left: 1px transparent solid;
+    border-right: 1px transparent solid ;
+    border-bottom: 1px transparent solid;
+}
+
+.card-body:hover {
+    border-left: 1px green solid;
+    border-right: 1px green solid ;
+    border-bottom: 1px green solid;
+}
+
+.card-body .card-title {
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.card-body:hover .card-title {
+    color: #35A22C;
+}
+
+.card-body .card-text {
+    font-size: 16px;
+}
+
+/* Hire  */
+
+#hire {
+    background-image: url("./../images/3.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    padding: 100px;
+}
+
+.hire__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(7,10,12,.72);
+}
+
+.hire__title {
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+    z-index: 99;
+    position: relative;
+}
+
+.hire__title h1 {
+    font-size: 36px;
+    margin: 0 0 8px;
+    font-weight: 700;
+}
+
+.hire__title p {
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+.hire__item {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255,255,.1);
+    transition: all 0.5s;
+}
+
+.hire__item:hover {
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.hire__item i {
+    color: #35A22C;
+}
+
+.hire__item h2 {
+    font-size: 20px;
+    margin: 0 0 8px;
+    padding: 25px 0 0;
+    font-weight: 700;
+    color: white;
+}
+
+.hire__item p {
+    font-size: 16px;
+    margin: 0 0 16px;
+    padding: 15px 0 0; 
+    color: white;
+}
+
+/* Award  */
+
+#award {
+    position: relative;
+    padding: 60px;
+    background-image: url("./../images/memphis_3.png");
+    background-position: bottom left;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+}
+
+.award__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff94;
+}
+
+.award__card {
+    padding: 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.award__card h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 8px;
+}
+
+.award__card p {
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+.award__content .award__center {
+    display: flex;
+    align-items: center;
+}
+ .award__img .col img {
+    width: 100% ;
+}
+
+/* Footer  */
+
+footer {
+    background-color: #222222;
+    padding: 48px;
+}
+
+hr {
+    background-color: #454545;
+    size: 1px;
+}
+
+.footer__icon {
+    justify-content: center;
+}
+
+.footer__logo {
+    margin-right: 10px;   
+}
+
+.footer__logo a i {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 50%;
+    border: 1px solid #454545;
+    color: #aaa;
+    text-align: center;
+    background-color: #222222;
+    transition: all 0.5s;
+}
+
+.footer__logo a i:hover {
+    color: #35A22C;
+    border: 1px solid #35A22C;
+}
+
+.footer__title {
+    margin: 30px 0 0;
+}
+
+.footer__title p {
+    color: #aaa;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer__title p a {
+    color: #aaa;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.footer__title p a:hover {
+    color: #35A22C;
+}
+
