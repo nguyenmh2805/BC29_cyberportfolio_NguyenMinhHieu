@@ -168,6 +168,7 @@ header {
 .card {
     border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 15px;
 }
 
 .card .card-img-top {
@@ -250,6 +251,7 @@ header {
     background-color: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255,255,255,.1);
     transition: all 0.5s;
+    margin-top: 15px;
 }
 
 .hire__item:hover {
@@ -298,7 +300,7 @@ header {
 }
 
 .award__card {
-    padding: 45px;
+    padding: 60px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -379,3 +381,101 @@ hr {
     color: #35A22C;
 }
 
+/* Responsive  */
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .navbar-brand span{
+        font-size: 25px;
+    }
+
+    .navbar-brand i{
+        font-size: 30px;
+    }
+
+    .img__thumb {
+        width: 115px; 
+    }
+
+    .carousel-caption h3 {
+        font-size: 40px;
+    }
+
+    .carousel-caption h3 {
+        font-size: 40px;
+    }
+
+    .project__title h1 {
+        font-size: 30px;
+    }
+
+    .project__title p {
+        font-size: 13px;
+    }
+
+    .hire__title {
+        width: 100%;
+    }
+
+    .hire__title h1 {
+        font-size: 25px;
+    }
+
+    #hire {
+        padding: 20px;
+    }
+
+    #award {
+        padding: 10px;
+    }
+    
+    .award__card h1 {
+        font-size: 25px;
+    }
+
+    .award__card {
+        box-shadow: none;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 30px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #award {
+        padding: 20px;
+    }
+
+    .award__card h1 {
+        font-size: 20px;
+    }
+
+    .award__card {
+        padding: 40px;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #award {
+        padding: 20px;
+    }
+
+    .award__card h1 {
+        font-size: 23px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .award__card {
+        padding: 20px;
+    }
+
+    .award__card h1 {
+        font-size: 20px;
+    }
+}
